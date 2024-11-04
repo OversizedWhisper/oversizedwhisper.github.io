@@ -148,7 +148,7 @@ gsap.fromTo(
       start: "top top",  // when the top of the section reaches the top of the viewport
       end: "4200px bottom",  // when the bottom of the section reaches the bottom of the viewport
       scrub: 1,  // smooth animation as you scroll
-      markers: true,
+      //markers: true,
     },
     motionPath: {
       path: "#path",
