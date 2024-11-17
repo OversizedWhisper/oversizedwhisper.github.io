@@ -18,16 +18,14 @@ body {
 
 .section-one .left {
     width: 100%;
-    background-color: black;
-    background-image: url('/imagens/RuaL.png');
-    background-color: rgb(255, 255, 255,0.5);
+    background-image: url('/imagens/Sec1RuaL.png');
+    background-color: rgb(189, 189, 189);
     background-repeat: no-repeat;
     background-position: center left;
     
 }
 
 .section-one .gif-container {
-    background-color: white;
     height: 100%;
     /* Center bottom */
     display: flex;
@@ -35,7 +33,7 @@ body {
     align-items: flex-start;
     padding: 0 220px;
     background-image: url('/imagens/Calcada.png');
-    background-color: rgb(255, 255, 255,0.3);
+    background-color: rgb(189, 189, 189);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -49,10 +47,9 @@ body {
 
 .section-one .right {
     width: 100%;
-    background-color: black;
-    background-image: url('/imagens/RuaR.png');
-    background-color: rgb(255, 255, 255,0.5);
-    background-repeat:repeat;
+    background-image: url('/imagens/Sec1RuaR.png');
+    background-color: rgb(189, 189, 189);
+    background-repeat:no-repeat;
     background-position: center right;
 }
 
@@ -119,13 +116,13 @@ body {
 .section-three .left {
     height: 5000px;
     width: 100%;
-    background-color: rgb(139, 131, 15);
+    background-color: rgb(131, 131, 131);
 }
 
 .section-three .right {
     height: 5000px;
     width: 100%;
-    background-color: rgb(139, 131, 15);
+    background-color: rgb(131, 131, 131);
     background-image: url('/imagens/RuaR.png');
     background-repeat: no-repeat;
     background-position: center center;
