@@ -101,7 +101,7 @@ body {
 
 .section-two .walking {
     position: absolute;
-    bottom: 50vh;
+    bottom: 0vh;
 }
 
 /* Section three - Wall scroll */
