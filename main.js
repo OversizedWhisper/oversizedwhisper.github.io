@@ -76,10 +76,10 @@ gsap.fromTo(
 gsap.fromTo(
   ".section-two .walking",
   {
-    bottom: "350vh", x: "100vw", // Inicialmente no fundo da página
+    bottom: "300vh", x: "100vw", // Inicialmente no fundo da página
   },
   {
-    bottom: "50vh", x: "0px", // Movendo a GIF para cima conforme o scroll
+    bottom: "0vh", x: "0px", // Movendo a GIF para cima conforme o scroll
     ease: "none",
     scrollTrigger: {
       trigger: ".section-two",
