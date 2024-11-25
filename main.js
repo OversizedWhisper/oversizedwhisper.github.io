@@ -72,7 +72,10 @@ gsap.fromTo(
 );
 
 // Move WALKING Luisa1
+<<<<<<< HEAD
+=======
 
+>>>>>>> d48eb195c3f7725ce72ab55bd25d19ffbf5ee117
 gsap.fromTo(
   ".section-two .luisa1",
   {
@@ -80,6 +83,8 @@ gsap.fromTo(
   },
   {
     left: "-500px", // Movendo a GIF para cima conforme o scroll
+<<<<<<< HEAD
+=======
     ease: "none",
     scrollTrigger: {
       trigger: ".section-two",
@@ -120,6 +125,7 @@ gsap.fromTo(
   },
   {
     left: "calc(-500px - 200vw)", // Movendo a GIF para cima conforme o scroll
+>>>>>>> d48eb195c3f7725ce72ab55bd25d19ffbf5ee117
     ease: "none",
     scrollTrigger: {
       trigger: ".section-two",
@@ -131,16 +137,111 @@ gsap.fromTo(
   }
 );
 
-// Section four
+// Move WALKING Luisa2
+gsap.fromTo(
+  ".section-two .luisa2",
+  {
+    left: "calc(600vw - 100vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-500px - 100vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-two",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa3
+gsap.fromTo(
+  ".section-two .luisa3",
+  {
+    left: "calc(600vw - 200vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-500px - 200vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-two",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa4
+gsap.fromTo(
+  ".section-two .luisa4",
+  {
+    left: "calc(600vw - 300vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-500px - 300vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-two",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa5
+gsap.fromTo(
+  ".section-two .luisa5",
+  {
+    left: "calc(600vw - 400vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-500px - 400vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-two",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa6
+gsap.fromTo(
+  ".section-two .luisa6",
+  {
+    left: "calc(600vw - 500vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-500px - 500vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-two",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Section four - scroll horizontally
 
 // Move the GIF from the bottom of the container to the top as you scroll
 gsap.fromTo(
   ".section-four .horizontal-container",
   {
-    y: "0px", x: "-300vw", // Inicialmente no fundo da página
+    y: "0px", x: "-400vw", // Inicialmente no fundo da página
   },
   {
-    y: "300vh", x: "0px", // Movendo a GIF para cima conforme o scroll
+    y: "400vh", x: "0px", // Movendo a GIF para cima conforme o scroll
     ease: "none",
     scrollTrigger: {
       trigger: ".section-four",
@@ -152,15 +253,94 @@ gsap.fromTo(
   }
 );
 
-// Move WALKING
-
+// Move WALKING Luisa1
 gsap.fromTo(
-  ".section-four .walking",
+  ".section-four .luisa1",
   {
-    bottom: "350vh", x: "100vw", // Inicialmente no fundo da página
+    left: "500vw", // Inicialmente no fundo da página
   },
   {
-    bottom: "50vh", x: "0px", // Movendo a GIF para cima conforme o scroll
+    left: "-400px", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-four",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa2
+
+gsap.fromTo(
+  ".section-four .luisa2",
+  {
+    left: "calc(500vw - 100vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-400px - 100vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-four",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa3
+
+gsap.fromTo(
+  ".section-four .luisa3",
+  {
+    left: "calc(500vw - 200vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-400px - 200vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-four",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa4
+
+gsap.fromTo(
+  ".section-four .luisa4",
+  {
+    left: "calc(500vw - 300vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-400px - 300vw)", // Movendo a GIF para cima conforme o scroll
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".section-four",
+      start: "top top",
+      end: "bottom bottom",
+      scrub: true,
+      //markers: true,
+    },
+  }
+);
+
+// Move WALKING Luisa5
+
+gsap.fromTo(
+  ".section-four .luisa5",
+  {
+    left: "calc(500vw - 400vw)", // Inicialmente no fundo da página
+  },
+  {
+    left: "calc(-400px - 400vw)", // Movendo a GIF para cima conforme o scroll
     ease: "none",
     scrollTrigger: {
       trigger: ".section-four",
