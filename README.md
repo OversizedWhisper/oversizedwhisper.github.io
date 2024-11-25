@@ -1,5 +1,3 @@
-Lu Scrolltelling
-
 Scrollytelling made for the Narrativa Visual Class.
   The project is based on the story written in the poem "Calçada de Carriche" de Antínio Gedeão
 
