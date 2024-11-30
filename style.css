@@ -57,7 +57,7 @@ body {
 
 .section-two {
     height: calc(100vh * 6);
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(83, 83, 83);
     position: relative;
     overflow-x: hidden;
 }
@@ -144,8 +144,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(to left, rgb(133, 255, 32), rgba(0, 0, 0, 1));
     position: relative;
-    z-index: 1;
-    overflow-x: hidden;
+    z-index: 2;
 }
 
 /* section-two - six - gradient */
@@ -194,6 +193,7 @@ body {
 
 .section-two .luisa6 {
     z-index: 1;
+    opacity: 0;
 }
 
 
@@ -365,5 +365,16 @@ body {
     height: 100%;
     width: 60px;
     background-color: black;
+    z-index: 10;
+}
+
+.section-two .left-wall {
+    position: absolute;
+    left: -15px;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
     z-index: 10;
 }
