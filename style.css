@@ -114,15 +114,16 @@ body {
     position: relative;
     z-index: 3;
     overflow-x: hidden;
+    background-image: url('/imagens/Quarto1.png');
 }
 
 .section-two .five {
     min-width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right, rgb(184, 115, 153), rgba(0, 0, 0, 1));
     position: relative;
     z-index: 2;
     overflow-x: hidden;
+    background-image: url('/imagens/Quarto2.png');
 }
 
 .section-two .five::after{
@@ -142,9 +143,9 @@ body {
 .section-two .six {
     min-width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to left, rgb(133, 255, 32), rgba(0, 0, 0, 1));
     position: relative;
     z-index: 2;
+    background-image: url('/imagens/Quarto3.png');
 }
 
 /* section-two - six - gradient */
@@ -369,6 +370,16 @@ body {
 }
 
 .section-two .left-wall {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: black;
+    z-index: 10;
+}
+
+.section-two .six .left-wall {
     position: absolute;
     left: -15px;
     top: 0;
