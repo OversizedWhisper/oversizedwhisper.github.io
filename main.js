@@ -66,6 +66,7 @@ gsap.fromTo(
       start: "top top",
       end: "bottom bottom",
       scrub: true,
+      smooth: 1
       //markers: true,
     },
   }
