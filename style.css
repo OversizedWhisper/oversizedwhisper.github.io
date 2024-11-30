@@ -353,3 +353,15 @@ body {
     top: 100px;
     left: 0;
 }
+
+/* --------------------- Walls between transitions ----------------------- */
+
+.section-two .right-wall {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: black;
+    z-index: 10;
+}
