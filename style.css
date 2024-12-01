@@ -19,7 +19,8 @@ body {
 .section-one .left {
     width: 100%;
     background-image: url('/imagens/Sec1RuaL.png');
-    background-color: rgb(189, 189, 189);
+    background-color:rgb(161, 161, 161);
+    position: relative;
     background-repeat: no-repeat;
     background-position: center left;
     
@@ -48,7 +49,8 @@ body {
 .section-one .right {
     width: 100%;
     background-image: url('/imagens/Sec1RuaR.png');
-    background-color: rgb(189, 189, 189);
+    background-color:rgb(161, 161, 161);
+    position: relative;
     background-repeat:no-repeat;
     background-position: center right;
 }
@@ -210,14 +212,18 @@ body {
 .section-three .left {
     height: 5000px;
     width: 100%;
-    background-color: rgb(131, 131, 131);
+    background-color:rgb(161, 161, 161);
+    background-color:rgb(161, 161, 161);
+    background-image: url('/imagens/Sec2RuaL.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .section-three .right {
     height: 5000px;
     width: 100%;
-    background-color: rgb(131, 131, 131);
-    background-image: url('/imagens/RuaR.png');
+    background-color:rgb(161, 161, 161);
+    background-image: url('/imagens/Sec2RuaR.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
