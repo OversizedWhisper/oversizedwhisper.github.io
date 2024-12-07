@@ -338,7 +338,7 @@ body {
 /* Section five - Wall scroll */
 
 .section-five {
-    height: 3000px;
+    height: 2000px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -353,15 +353,62 @@ body {
     justify-content: center;
     align-items: flex-start;
     position: relative;
+    overflow: hidden;
 }
 
 .section-five svg {
+    opacity: 0;
+}
+
+/* Walker 1 */
+
+.section-five .walker-1 {
+    width: 400px;
+    height: 400px;
+    z-index: 15;
+}
+
+.section-five .first-stairs {
     position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 3000px;
-    top: 100px;
+    z-index: 20;
+}
+
+.section-five .first-path {
+    position: absolute;
+    width: 2300px;
+    height: 1100px;
+    bottom: 0;
     left: 0;
 }
+
+/* Walker 2 */
+
+.section-five .walker-2 {
+    width: 400px;
+    height: 400px;
+    z-index: 5;
+    transform: rotateY(180deg);
+}
+
+.section-five .second-stairs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.section-five .second-path {
+    position: absolute;
+    width: 2300px;
+    height: 1200px;
+    bottom: 750px;
+    left: 0;
+}
+
 
 /* --------------------- Walls between transitions ----------------------- */
 
