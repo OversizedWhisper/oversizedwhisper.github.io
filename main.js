@@ -6,7 +6,7 @@ window.onload = function () {
   }
 
   // Força o scroll para o final da página
-  window.scrollTo(0, document.body.scrollHeight);
+  //window.scrollTo(0, document.body.scrollHeight);
 
   // Inicia a animação da GIF
   start();
@@ -310,49 +310,51 @@ gsap.fromTo(
 // Section five
 
 // Define the motion path (you can customize the path points)
-  const path = [
-    { x: 0, y: 0 },
-    { x: 800, y: 1000 },
-    { x: -800, y: 3000 },
-    { x: 0, y: 6000 },
-  ];
 
-  gsap.to(".section-five .gif", {
-    scrollTrigger: {
-      trigger: ".section-five .gif-container",
-      start: "top top",  // when the top of the section reaches the top of the viewport
-      end: "4200px bottom",  // when the bottom of the section reaches the bottom of the viewport
-      scrub: 1,  // smooth animation as you scroll
-      //markers: true,
-    },
-    motionPath: {
-      path: "#path",
-      align: '#path',
-      alignOrigin: [0.5, 0.5],
-    },
-    duration: 0.2
-  });
+  // Create a timeline to combine motion path and opacity
+const timeline1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".section-five .gif-container",
+    start: "500px top",
+    end: "2500px bottom",
+    scrub: 1,
+    //markers: true,
+  }
+});
 
-// --------------------------------------- Rain ---------------------------------------
+// Add motion path animation
+timeline1.to(".section-five .walker-1", {
+  motionPath: {
+    path: "#path-1",
+    align: "#path-1",
+    alignOrigin: [0.5, 0.5],
+  },
+  duration: 1
+});
 
-// Function to create a single rain drop
-const createRainDrop = (section) => {
-  const drop = document.createElement("div");
-  drop.classList.add("rain-drop");
-  section.appendChild(drop);
 
-  // Randomize the position and animation duration
-  drop.style.left = Math.random() * 100 + "vw"; // Random position across the viewport width
-  drop.style.animationDuration = Math.random() * 1 + 0.5 + "s"; // Random duration between 0.5s to 1.5s
+  // Create a timeline to combine motion path and opacity
+const timeline2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".section-five .gif-container",
+    start: "top top",
+    end: "1500px bottom",
+    scrub: 1,
+    //markers: true,
+  }
+});
 
-  // Remove the drop after the animation ends
-  drop.addEventListener("animationend", () => {
-    drop.remove();
-  });
-};
+// Add motion path animation
+timeline2.to(".section-five .walker-2", {
+  motionPath: {
+    path: "#path-2",
+    align: "#path-2",
+    alignOrigin: [0.5, 0.5],
+  },
+  duration: 1
+});
 
-// Create rain drops at intervals
-setInterval(() => {
-  createRainDrop(document.querySelector(".left"));
-  createRainDrop(document.querySelector(".right"));
-}, 50); // Adjust frequency of drops
+
+
+
+
