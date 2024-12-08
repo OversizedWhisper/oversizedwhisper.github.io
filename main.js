@@ -395,8 +395,4 @@ timeline4.to(".section-five .walker-4", {
     alignOrigin: [0.5, 0.5],
   },
   duration: 1
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 093a340aaef44f417b900ea2b069cd5f21c69bed
