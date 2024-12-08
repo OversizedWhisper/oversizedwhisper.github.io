@@ -6,7 +6,7 @@ window.onload = function () {
   }
 
   // Força o scroll para o final da página
-  //window.scrollTo(0, document.body.scrollHeight);
+  window.scrollTo(0, document.body.scrollHeight);
 
   // Inicia a animação da GIF
   start();
@@ -315,8 +315,8 @@ gsap.fromTo(
 const timeline1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".section-five .gif-container",
-    start: "500px top",
-    end: "2500px bottom",
+    start: "2500px top",
+    end: "110% bottom",
     scrub: 1,
     //markers: true,
   }
@@ -333,12 +333,12 @@ timeline1.to(".section-five .walker-1", {
 });
 
 
-  // Create a timeline to combine motion path and opacity
+// Create a timeline to combine motion path and opacity
 const timeline2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".section-five .gif-container",
-    start: "top top",
-    end: "1500px bottom",
+    start: "1800px top",
+    end: "3500px bottom",
     scrub: 1,
     //markers: true,
   }
@@ -354,7 +354,45 @@ timeline2.to(".section-five .walker-2", {
   duration: 1
 });
 
+  // Create a timeline to combine motion path and opacity
+const timeline3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".section-five .gif-container",
+    start: "500px top",
+    end: "3000px bottom",
+    scrub: 1,
+    //markers: true,
+  }
+});
+
+// Add motion path animation
+timeline3.to(".section-five .walker-3", {
+  motionPath: {
+    path: "#path-3",
+    align: "#path-3",
+    alignOrigin: [0.5, 0.5],
+  },
+  duration: 1
+});
 
 
+  // Create a timeline to combine motion path and opacity
+const timeline4 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".section-five .gif-container",
+    start: "-200px top",
+    end: "1500px bottom",
+    scrub: 1,
+    //markers: true,
+  }
+});
 
-
+// Add motion path animation
+timeline4.to(".section-five .walker-4", {
+  motionPath: {
+    path: "#path-4",
+    align: "#path-4",
+    alignOrigin: [0.5, 0.5],
+  },
+  duration: 1
+});
