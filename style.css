@@ -266,7 +266,7 @@ body {
 .section-four .one {
     min-width: 100vw;
     height: 100vh;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(189, 189, 189);
     position: relative;
     z-index: 6;
     overflow-x: hidden;
@@ -278,7 +278,7 @@ body {
 .section-four .two {
     min-width: 100vw;
     height: 100vh;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(189, 189, 189);
     position: relative;
     z-index: 5;
     overflow-x: hidden;
@@ -290,7 +290,7 @@ body {
 .section-four .three {
     min-width: 100vw;
     height: 100vh;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(189, 189, 189);
     position: relative;
     z-index: 4;
     overflow-x: hidden;
@@ -302,7 +302,7 @@ body {
 .section-four .four {
     min-width: 100vw;
     height: 100vh;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(189, 189, 189);
     position: relative;
     z-index: 3;
     overflow-x: hidden;
@@ -314,7 +314,7 @@ body {
 .section-four .five {
     min-width: 100vw;
     height: 100vh;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(189, 189, 189);
     position: relative;
     z-index: 2;
     overflow-x: hidden;
