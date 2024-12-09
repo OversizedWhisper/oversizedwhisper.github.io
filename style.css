@@ -329,6 +329,7 @@ body {
     position: absolute;
     width: 700px;
     bottom: 0px;
+    opacity: 0;
 }
 
 /* Styling every Luisa */
