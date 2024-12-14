@@ -329,7 +329,7 @@ body {
     position: absolute;
     width: 700px;
     bottom: 0px;
-    opacity: 0;
+    opacity: 100%;
 }
 
 /* Styling every Luisa */
@@ -466,7 +466,7 @@ body {
 
 .section-five .fourth-path {
     position: absolute;
-    height: 1200px;
+    height: 1100px;
     top: -100px;
     left: -500px;
 }
@@ -493,6 +493,15 @@ body {
     z-index: 10;
 }
 
+.section-two .three .left-wall {
+    position: absolute;
+    left: -15px;
+    top: 0;
+    height: 100%;
+    width: 0px;
+    z-index: 10;
+}
+
 .section-two .six .left-wall {
     position: absolute;
     left: -15px;
@@ -503,6 +512,34 @@ body {
     border-radius: 100%;
     z-index: 10;
 }
+.section-four .right-wall {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: black;
+    z-index: 10;
+}
+
+.section-four .left-wall {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background-color: black;
+    z-index: 10;
+}
+.section-four .two .right-wall {
+    position: absolute;
+    left: -15px;
+    top: 0;
+    height: 100%;
+    width: 0px;
+    z-index: 10;
+}
+
 
 /* Heading */
 
